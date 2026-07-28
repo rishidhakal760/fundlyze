@@ -1,6 +1,7 @@
 package com.fundlyze.backend.entity;
 import java.time.LocalDateTime;
 import jakarta.persistence.*;
+@Entity
 @Table(name = "watchlists")
 
 
