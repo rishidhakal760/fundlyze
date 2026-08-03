@@ -1,2 +1,25 @@
+# Environment files
 .env
+.env.local
+
+# Java
 backend-java/target/
+backend-java/.mvn/wrapper/maven-wrapper.jar
+
+# Python
+analysis-engine/venv/
+analysis-engine/__pycache__/
+analysis-engine/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+*.iml
+
+# Logs
+*.log
